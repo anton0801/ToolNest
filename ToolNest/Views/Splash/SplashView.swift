@@ -283,6 +283,6 @@ struct GearShape: Shape {
     }
 
     private func point(center: CGPoint, radius: CGFloat, angle: Double) -> CGPoint {
-        CGPoint(x: center.x + radius * _math.cos(angle), y: center.y + radius * sin(angle))
+        CGPoint(x: center.x + radius * Foundation.cos(angle), y: center.y + radius * Foundation.sin(angle))
     }
 }
